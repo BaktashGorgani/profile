@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!tmux-session
+!.bash_aliases
+!.profile
+!.tmux-session
+!.bashrc

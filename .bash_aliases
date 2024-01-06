@@ -1,0 +1,7 @@
+alias activate='source ./venv/bin/activate'
+alias arrislc='cd ~/dev/Arris-LC-Fail-Over && activate'
+alias hackathon='cd ~/dev/hackathon'
+alias nvim-config='cd ~/.config/nvim && nvim .'
+alias tkill='tmux kill-server'
+alias tsave='~/tmux-session save'
+alias trestore='~/tmux-session restore && tmux a'
