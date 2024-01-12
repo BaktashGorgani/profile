@@ -38,5 +38,8 @@ function nonzero_return() {
 
 PS1='\[\e]0;Ubuntu\007\]\n\[\e[31m\]`nonzero_return`\[\e[32m\] \u@\h \[\e[35m\]\w\[\e[36m\]`__git_ps1`\e[0m\n$'
 export PATH=$PATH:/usr/local/go/bin:~/go/bin
+export EDITOR=nvim
+export VISUAL=nvim
+export SUDO_EDITOR=nvim
 
 
