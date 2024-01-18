@@ -46,3 +46,6 @@ function nonzero_return() {
 }
 
 PS1='\[\e]0;Git Bash: $MSYSTEM\007\]\n\[\e[31m\]`nonzero_return`\[\e[32m\] \u@\h \[\e[35m\]\w\[\e[36m\]`__git_ps1`\e[0m\n$'
+export EDITOR=nvim
+export VISUAL=nvim
+export SUDO_EDITOR=nvim
