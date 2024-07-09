@@ -13,8 +13,11 @@ alias tm='tmux new -A -s Main'
 alias tkill='tmux kill-server'
 alias tsave='~/tmux-session save'
 alias trestore='~/tmux-session restore && tmux a'
+alias lua-language-server=lua-language-server.exe
 alias go_hello='curl 127.0.0.1:8080/hello'
 alias nv='nvim .'
 alias cat='batcat --color=always --paging=never'
 alias fz='fzf -m --preview "batcat --show-all --color=always --line-range=:500 {}"'
 alias fnv='fz --bind "enter:become(nvim {})"'
+alias fcd='`__fzf_cd__`'
+alias pgl="git log --color=always --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)'"
