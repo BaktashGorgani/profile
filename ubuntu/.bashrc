@@ -120,9 +120,9 @@ nonzero_return() {
     local RETVAL=$?
     if [[ $RETVAL -ne 0 ]]
     then
-        echo "❌($RETVAL)"
+        echo "Γ¥î($RETVAL)"
     else
-        echo "✅"
+        echo "Γ£à"
     fi
 }
 
@@ -154,9 +154,14 @@ frg () {
         --bind 'enter:become(nvim {1} +{2})'
 }
 
+fgbc () { git checkout $(git branch -a -vv --color=always| fzf --ansi --reverse --cycle | awk '{print $1}' | sed 's/\*//'); }
+fgcc () { git checkout $(pgl | fzf --ansi --reverse --cycle | sed -E 's/[^a-f0-9]*([a-f0-9]+).*/\1/'); }
+
 export EDITOR=nvim
 export VISUAL=nvim
 export SUDO_EDITOR=nvim
+export FZF_DEAFAULT_OPTS="--border --cycle --walker-root=/home/baktash"
+export BAT_THEME="OneHalfDark"
 
 if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
   tm
