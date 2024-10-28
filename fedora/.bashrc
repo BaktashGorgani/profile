@@ -121,17 +121,17 @@ fs () { interactively 'sed -e {} '$1''; }
 fg () { interactively 'grep --color=always {} '$1''; }
 
 PS1='\[\e]0;Fedora\007\]\n\[\e[31m\]`nonzero_return`\[\e[32m\] \u@\h \[\e[35m\]\w\[\e[36m\]`__git_ps1`\e[0m\n$'
-export PATH=$PATH:/usr/local/go/bin:~/go/bin:/usr/local/Postman\ Agent/:~/.local/lua-language-server-3.7.4-linux-x64/:~/android-studio/bin
 export EDITOR=nvim
 export VISUAL=nvim
 export SUDO_EDITOR=nvim
 export BAT_THEME="OneHalfDark"
-export PATH="/usr/share/flutter/bin:$PATH"
-export PATH="~/Downloads/Installers/interactively/bin/:$PATH"
+export PATH=$HOME/Downloads/Installers/interactively/bin/:/usr/share/flutter/bin:$PATH:/usr/local/go/bin:~/go/bin:/usr/local/Postman\ Agent/:~/.local/lua-language-server-3.7.4-linux-x64/:~/android-studio/bin
+
+# Dart executables
+export PATH="$PATH":"$HOME/.pub-cache/bin"
 
 export FZF_DEFAULT_OPTS="
-    --walker-skip .git,node_modules,target,.local,.cache,.steam,.gradle,venv,.cache,sys,proc,.file,.npm,.dartserver
-    --walker-root=/
+    --walker-skip .git,node_modules,target,.local,.cache,.steam,.gradle,venv,.cache,sys,proc,.file,.npm,.dartserver,.mypy_cache
     --cycle
     --border
 "
@@ -141,8 +141,8 @@ export FZF_ALT_C_OPTS="
 "
 
 
-if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
-  tm
-fi
+#if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+#  tm
+#fi
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
