@@ -120,17 +120,42 @@ fgcc () {
 fs () { interactively 'sed -e {} '$1''; }
 fg () { interactively 'grep --color=always {} '$1''; }
 
-PS1='\[\e]0;Fedora\007\]\n\[\e[31m\]`nonzero_return`\[\e[32m\] \u@\h \[\e[35m\]\w\[\e[36m\]`__git_ps1`\e[0m\n$'
+screenshot () {
+    local filename="$HOME/Pictures/Screenshots/Screenshot_$(date +%Y-%m-%d-%H-%M-%S).png"
+    grimshot savecopy anything "$filename"
+    notify-send "Screenshot saved to clipboard and $filename"
+}
+
+swap_sway_wksp () {
+    local wksp=$(swaymsg -rt get_workspaces | jq -r '.[] | select(.focused == true).num')
+    local query="string join '' '.. | select(.type?) | select(.num == ' $1 ') | .output'"
+    local output=$(swaymsg -rt get_outputs | jq -r $query)
+
+    swaymsg [workspace = $1] move workspace to output current
+    swaymsg [workspace = $wksp] move workspace to output $output
+    swaymsg workspace number $1
+}
+
+get_file () {
+        scp bgorgani@"$1":"$2" ~/
+}
+
+
+PS1='\n\[\e[31m\]`nonzero_return`\[\e[32m\] \u@\h \[\e[35m\]\w\[\e[36m\]`__git_ps1`\e[0m\n$'
 export EDITOR=nvim
 export VISUAL=nvim
 export SUDO_EDITOR=nvim
 export BAT_THEME="OneHalfDark"
-export PATH=$HOME/Downloads/Installers/interactively/bin/:/usr/share/flutter/bin:$PATH:/usr/local/go/bin:~/go/bin:/usr/local/Postman\ Agent/:~/.local/lua-language-server-3.7.4-linux-x64/:~/android-studio/bin
+export XCURSOR_THEME="material_cursors"
+export XCURSOR_SIZE="32"
+export XDG_DATA_DIRS="/var/lib/flatpak/exports/share:/home/baky/.local/share/flatpak/exports/share:$XDG_DATA_DIRS"
+export PATH=$HOME/Downloads/Installers/interactively/bin/:$PATH:/usr/local/go/bin:~/go/bin:/usr/local/Postman\ Agent/:~/.local/lua-language-server/bin:~/android-studio/bin
 
-# Dart executables
-export PATH="$PATH":"$HOME/.pub-cache/bin"
+# Flutter executables
+export PATH="$HOME/development/flutter/bin:$PATH"
 
 export FZF_DEFAULT_OPTS="
+    --tmux 97%
     --walker-skip .git,node_modules,target,.local,.cache,.steam,.gradle,venv,.cache,sys,proc,.file,.npm,.dartserver,.mypy_cache
     --cycle
     --border
@@ -140,9 +165,18 @@ export FZF_ALT_C_OPTS="
     --preview 'tree -C {}'
 "
 
+# History across TMUX
+export HISTCONTROL=ignoredups:erasedups
+shopt -s histappend
+export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
+
 
 #if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
 #  tm
 #fi
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+. "$HOME/.cargo/env"
+
+eval "$(gh copilot alias -- bash)"

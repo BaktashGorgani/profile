@@ -1,0 +1,12 @@
+<application>
+  <component name="github-copilot">
+    <languageAllowList>
+      <map>
+        <entry key="*" value="true" />
+      </map>
+    </languageAllowList>
+    <option name="inlayTextColor" value="#ff0000" />
+    <option name="showIdeCompletions" value="true" />
+    <option name="chatNaturalLanguage" value="English" />
+  </component>
+</application>

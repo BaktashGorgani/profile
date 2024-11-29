@@ -1,0 +1,22 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "settings.editor.selected.configurable": "MTFeaturesSettingsConfigurable"
+  }
+}]]></component>
+      <component name="VcsDirectoryMappings" defaultProject="true" />
+      <component name="WindowStateProjectService">
+        <state x="2583" y="282" key="SettingsEditor" timestamp="1730878122424">
+          <screen x="1920" y="0" width="2560" height="1440" />
+        </state>
+        <state x="530" y="226" key="SettingsEditor.ideScale=115" timestamp="1731157520926">
+          <screen x="0" y="0" width="2048" height="1152" />
+        </state>
+        <state x="530" y="226" key="SettingsEditor.ideScale=115/0.0.2048.1152/2560.0.1920.1080/4480.0.1920.1080" timestamp="1731157520926" />
+        <state x="2583" y="282" key="SettingsEditor/4480.0.1920.1080/0.0.1920.1080/1920.0.2560.1440" timestamp="1730878122424" />
+      </component>
+    </defaultProject>
+  </component>
+</application>

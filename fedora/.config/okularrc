@@ -1,0 +1,18 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=false
+
+[MainWindow]
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/Cacti West HEs Map-1.pdf
+File2[$e]=$HOME/Downloads/Cacti West HEs Map.pdf
+Name1[$e]=Cacti West HEs Map-1.pdf
+Name2[$e]=Cacti West HEs Map.pdf
+
+[UiSettings]
+ColorScheme=Breeze Dark

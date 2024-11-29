@@ -1,0 +1,114 @@
+<application>
+  <component name="ActionHistoryManager">
+    <ids>
+      <option value="ActivateRunningDevicesToolWindow" />
+      <option value="template.create.ServiceService (IntentService)" />
+      <option value="FileChooser.NewFile" />
+      <option value="ProjectViewPopupMenuRefactoringGroup" />
+      <option value="NewFile" />
+    </ids>
+  </component>
+  <component name="FileEditorProviderManager">{}</component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontFace" value="JetBrainsMono NF" />
+    <option name="fontSize" value="15.0" />
+    <option name="presentationModeIdeScale" value="1.75" />
+    <option name="overrideLafFonts" value="true" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.PROPERTIES.AUTO_HIDE": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.PROPERTIES.LEFT": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.PROPERTIES.MINIMIZED": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.PROPERTIES.SPLIT": "true",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.TOOL_ORDER": "TREE,PROPERTIES",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.TREE.AUTO_HIDE": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.TREE.LEFT": "true",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.TREE.MINIMIZED": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.TREE.SPLIT": "true",
+    "ATTACHED_TOOL_WINDOW.Layout Inspector.PROPERTIES.SPLIT": "true",
+    "ATTACHED_TOOL_WINDOW.Layout Inspector.TOOL_ORDER": "TREE,PROPERTIES",
+    "ATTACHED_TOOL_WINDOW.Layout Inspector.TREE.LEFT": "true",
+    "ATTACHED_TOOL_WINDOW.Layout Inspector.TREE.SPLIT": "true",
+    "BLOCK_TERMINAL_LAST_USED_DATE": "1732462870",
+    "BLOCK_TERMINAL_LAST_USED_VERSION": "242.23339.11.2421.12550806",
+    "ColorChooser.RecentColors": "238-238-238-255,,,241-241-241-255,,,255-0-0-255",
+    "FLUTTER_LAST_SURVEY_CONTENT_CHECK_KEY": "1732729323536",
+    "FLUTTER_LAST_SURVEY_PROMPT_KEY": "1732028391074",
+    "FileTemplates.SelectedTemplate": "HTML File",
+    "IdeErrorsDialog.LAST_OK_ACTION": "REPORT_AND_CLEAR_ALL",
+    "InstalledPluginsSearchHistory": "waka\nwak\nwa\nw",
+    "KEYMAP": "copilot\npaste\ncopy\nctrl",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "5",
+    "LayoutCode.optimizeImports": "true",
+    "LayoutCode.processChangedText": "false",
+    "LayoutCode.rearrangeEntriesDart": "false",
+    "MarketplacePluginsSearchHistory": "waka\nrich\nri\ncopilot\ncop",
+    "NewProjectWizard.addSampleCodeState": "false",
+    "PluginConfigurable.selectionTab": "1",
+    "ProjectStructure.TopLevelElements": "0.17",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "RunOnceActivity.cidr.test.framework.showIndexingAsTask": "true",
+    "RunOnceActivity.cidr.test.roots.only": "true",
+    "SAVED_ANDROID_NPW_LANGUAGE": "Kotlin",
+    "SettingsSearchHistory": "waka\nclipboard\nshortcuts\nblink\ncursor",
+    "Source Code Editor With PreviewLayout": "Editor only",
+    "android.sdk.path": "/home/baky/Android/Sdk",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "com.android.tools.idea.layoutinspector.runningdevices.ui.uiconfigkey": "HORIZONTAL",
+    "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "IntelliJ",
+    "defaultJdkConfigured": "true",
+    "direct.access.onboarding": "true",
+    "enter_selection_count": "1",
+    "experimental.ui.used.version": "242.23339.11.2421.12550806",
+    "fileTypeChangedCounter": "1",
+    "fontSizeToResetConsole": "13.0",
+    "fontSizeToResetEditor": "14.0",
+    "got.it.tooltip.copilot.inlayGotIt": "1",
+    "got.it.tooltip.copilot.inlayPartialGotIt": "1",
+    "got.it.tooltip.github.copilot.inline.diffable.response": "1",
+    "got.it.tooltip.new.terminal.promotion.242": "1",
+    "ide.memory.adjusted": "true",
+    "ideavim.statistics.timestamp": "1732729255939",
+    "input.method.disabler.muted": "true",
+    "installed.kotlin.plugin.version": "242.23339.11.2421.12550806-AS",
+    "io.flutter.analytics.clientId": "a2753404-ec30-43b5-b972-354149b8b155",
+    "io.flutter.analytics.toastShown": "true",
+    "io.flutter.console.preferencesSet": "true",
+    "jdk.selected.JAVA_MODULE": "Android API 34, extension level 7 Platform",
+    "last_opened_file_path": "/home/baky/AndroidStudioProjects/mojo-jojo",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "mt.showInstallAtom": "true",
+    "mt.showStatisticsAgreement": "true",
+    "previousColorScheme": "Atom One Dark (Material) copy",
+    "project.wizard.group": "JAVA_MODULE_io.flutter.module.FlutterModuleBuilder",
+    "registry.to.advanced.settings.migration.build": "AI-242.23339.11.2421.12550806",
+    "studio.activity.count": "1",
+    "tab_selection_count": "4"
+  },
+  "keyToStringList": {
+    "DART_SDK_KNOWN_PATHS": [
+      "/home/baky/development/flutter/bin/cache/dart-sdk/"
+    ],
+    "FLUTTER_SDK_KNOWN_PATHS": [
+      "/usr/share/flutter",
+      "/home/baky/development/flutter"
+    ],
+    "file.chooser.recent.files": [
+      "/home/baky/development/flutter/bin",
+      "/home/baky/AndroidStudioProjects/mojo-jojo",
+      "/home/baky/Documents",
+      "/home/baky",
+      "/home/baky/development/flutter/bin/cache/dart-sdk/bin",
+      "/home/baky/AndroidStudioProjects/mojo_jojo",
+      "/home/baky/development/flutter"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.jetbrains.cidr.lang.OCHeaderFileTypeDetector",
+      "com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+</application>

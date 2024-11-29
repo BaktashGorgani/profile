@@ -1,0 +1,5 @@
+<application>
+  <component name="io.github.pandier.intellijdiscordrp.settings.DiscordSettingsComponent">
+    <option name="focusTimeoutEnabled" value="false" />
+  </component>
+</application>

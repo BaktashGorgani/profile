@@ -1,0 +1,372 @@
+<application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-search>
+        <entry encoding="base64">dw==</entry>
+      </history-search>
+      <history-cmd>
+        <entry encoding="base64">dzI=</entry>
+        <entry encoding="base64">cXc=</entry>
+        <entry encoding="base64">dw==</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+  </component>
+  <component name="VimJumpsSettings">
+    <project id="testing-e5753cf2">
+      <jump line="0" column="0" filename="$USER_HOME$/StudioProjects/testing/README.md" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/StudioProjects/testing/lib/main.dart" protocol="file" />
+      <jump line="30" column="66" filename="$USER_HOME$/StudioProjects/testing/lib/main.dart" protocol="file" />
+      <jump line="27" column="9" filename="$USER_HOME$/StudioProjects/testing/lib/main.dart" protocol="file" />
+      <jump line="38" column="40" filename="$USER_HOME$/StudioProjects/testing/lib/main.dart" protocol="file" />
+      <jump line="14" column="22" filename="$USER_HOME$/StudioProjects/testing/lib/main.dart" protocol="file" />
+    </project>
+    <project id="mojo_jojo-3ee2be71">
+      <jump line="15" column="13" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/components/my_button.dart" protocol="file" />
+      <jump line="27" column="29" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="44" column="14" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="30" column="47" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="46" column="17" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="31" column="33" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="32" column="76" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="18" column="15" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="66" column="24" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="29" column="23" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="24" column="50" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="22" column="19" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="17" column="13" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="18" column="10" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/themes/themes.dart" protocol="file" />
+      <jump line="13" column="25" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/themes/themes.dart" protocol="file" />
+      <jump line="10" column="30" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/themes/themes.dart" protocol="file" />
+      <jump line="11" column="3" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/themes/themes.dart" protocol="file" />
+      <jump line="6" column="20" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/themes/themes.dart" protocol="file" />
+      <jump line="8" column="15" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/themes/themes.dart" protocol="file" />
+      <jump line="7" column="33" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/themes/themes.dart" protocol="file" />
+      <jump line="19" column="20" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/themes/themes.dart" protocol="file" />
+      <jump line="9" column="35" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/themes/themes.dart" protocol="file" />
+      <jump line="43" column="68" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/services/auth/auth_service.dart" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/services/auth/auth_gate.dart" protocol="file" />
+      <jump line="32" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/services/auth/login_or_register.dart" protocol="file" />
+      <jump line="2" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_or_property.dart" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="26" column="13" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_or_property.dart" protocol="file" />
+      <jump line="3" column="42" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="106" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/login_page.dart" protocol="file" />
+      <jump line="5" column="8" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="9" column="21" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_or_property.dart" protocol="file" />
+      <jump line="5" column="20" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/property_page.dart" protocol="file" />
+      <jump line="9" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/property_page.dart" protocol="file" />
+      <jump line="29" column="19" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_or_property.dart" protocol="file" />
+      <jump line="52" column="16" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="59" column="6" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="62" column="4" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="28" column="29" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="47" column="16" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="21" column="17" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="34" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="58" column="5" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="16" column="8" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="12" column="13" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="14" column="16" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="16" column="15" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="13" column="17" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/components/bottom_bar_navigator.dart" protocol="file" />
+      <jump line="17" column="13" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/components/my_button.dart" protocol="file" />
+      <jump line="30" column="30" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/services_page.dart" protocol="file" />
+      <jump line="34" column="14" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/components/my_app_bar.dart" protocol="file" />
+      <jump line="45" column="13" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/components/my_app_bar.dart" protocol="file" />
+      <jump line="33" column="12" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="35" column="16" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="13" column="14" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="49" column="16" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="13" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="56" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/property_page.dart" protocol="file" />
+      <jump line="29" column="32" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="14" column="6" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="48" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="25" column="41" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/property_page.dart" protocol="file" />
+      <jump line="44" column="16" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/property_page.dart" protocol="file" />
+      <jump line="29" column="47" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/property_page.dart" protocol="file" />
+      <jump line="7" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/login_page.dart" protocol="file" />
+      <jump line="23" column="37" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="50" column="14" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="7" column="2" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/profile_page.dart" protocol="file" />
+      <jump line="57" column="25" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="58" column="10" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="60" column="17" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="51" column="8" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="56" column="5" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="90" column="30" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="81" column="48" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="86" column="61" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="7" column="31" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/property_page.dart" protocol="file" />
+      <jump line="53" column="60" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/property_page.dart" protocol="file" />
+      <jump line="60" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/property_page.dart" protocol="file" />
+      <jump line="7" column="30" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="38" column="30" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="18" column="23" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/components/my_card.dart" protocol="file" />
+      <jump line="56" column="19" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="70" column="13" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="60" column="42" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="65" column="30" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="51" column="34" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="57" column="26" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/README.md" protocol="file" />
+      <jump line="2" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/README.md" protocol="file" />
+      <jump line="27" column="29" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_or_property.dart" protocol="file" />
+      <jump line="37" column="15" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/android/app/build.gradle" protocol="file" />
+      <jump line="25" column="11" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/android/app/build.gradle" protocol="file" />
+      <jump line="4" column="20" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/android/app/src/main/kotlin/app/sudz/mojo_jojo/MainActivity.kt" protocol="file" />
+      <jump line="66" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="0" column="1" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/firebase.json" protocol="file" />
+      <jump line="22" column="4" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/android/app/build.gradle" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/lib/services/auth/login_or_register.dart" protocol="file" />
+      <jump line="10" column="52" filename="$USER_HOME$/AndroidStudioProjects/mojo_jojo/asdf" protocol="file" />
+    </project>
+    <project id="mojo-jojo-3c22273f">
+      <jump line="65" column="53" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="45" column="40" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="68" column="71" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="62" column="58" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="57" column="41" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="56" column="36" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="52" column="29" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="54" column="29" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="72" column="48" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="67" column="46" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="47" column="46" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="48" column="47" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="50" column="22" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="21" column="20" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/bottom_bar_navigator.dart" protocol="file" />
+      <jump line="25" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/bottom_bar_navigator.dart" protocol="file" />
+      <jump line="53" column="25" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_app_bar.dart" protocol="file" />
+      <jump line="4" column="18" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/services/auth/auth_service.dart" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/services/auth/login_or_register.dart" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/property_page.dart" protocol="file" />
+      <jump line="23" column="31" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="36" column="20" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="33" column="20" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="38" column="15" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="56" column="15" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_app_bar.dart" protocol="file" />
+      <jump line="49" column="27" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_app_bar.dart" protocol="file" />
+      <jump line="8" column="32" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/themes/themes.dart" protocol="file" />
+      <jump line="25" column="26" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/themes/themes.dart" protocol="file" />
+      <jump line="24" column="35" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/themes/themes.dart" protocol="file" />
+      <jump line="47" column="15" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="0" column="7" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_ad_1.dart" protocol="file" />
+      <jump line="4" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="89" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="8" column="5" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_ad_1.dart" protocol="file" />
+      <jump line="2" column="8" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_ad_1.dart" protocol="file" />
+      <jump line="17" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_ad_card_1.dart" protocol="file" />
+      <jump line="23" column="20" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_ad_card_1.dart" protocol="file" />
+      <jump line="15" column="9" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_ad_card_1.dart" protocol="file" />
+      <jump line="29" column="9" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_ad_card_1.dart" protocol="file" />
+      <jump line="27" column="13" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_ad_card_1.dart" protocol="file" />
+      <jump line="30" column="7" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_ad_card_1.dart" protocol="file" />
+      <jump line="18" column="16" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_ad_card_1.dart" protocol="file" />
+      <jump line="13" column="15" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_ad_card_1.dart" protocol="file" />
+      <jump line="8" column="15" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_ad_card_1.dart" protocol="file" />
+      <jump line="42" column="15" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="55" column="22" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="12" column="21" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_ad_card_1.dart" protocol="file" />
+      <jump line="10" column="15" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_ad_card_1.dart" protocol="file" />
+      <jump line="0" column="16" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_ad_card_1.dart" protocol="file" />
+      <jump line="21" column="19" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_ad_card_1.dart" protocol="file" />
+      <jump line="22" column="19" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_ad_card_1.dart" protocol="file" />
+      <jump line="24" column="19" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_ad_card_1.dart" protocol="file" />
+      <jump line="34" column="19" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_ad_card_1.dart" protocol="file" />
+      <jump line="51" column="11" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="35" column="23" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_ad_card_1.dart" protocol="file" />
+      <jump line="13" column="54" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/navigator_page.dart" protocol="file" />
+      <jump line="20" column="39" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/app.dart" protocol="file" />
+      <jump line="18" column="25" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/services/auth/auth_gate.dart" protocol="file" />
+      <jump line="55" column="32" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="33" column="20" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="12" column="4" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="18" column="23" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="9" column="6" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_ad_card_1.dart" protocol="file" />
+      <jump line="7" column="29" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_ad_card_1.dart" protocol="file" />
+      <jump line="5" column="7" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_ad_card_1.dart" protocol="file" />
+      <jump line="59" column="23" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="53" column="12" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="53" column="10" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/property_page.dart" protocol="file" />
+      <jump line="61" column="20" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/property_page.dart" protocol="file" />
+      <jump line="66" column="10" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="57" column="21" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="60" column="40" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="61" column="20" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="70" column="2" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="62" column="19" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="58" column="28" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="19" column="10" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_card.dart" protocol="file" />
+      <jump line="14" column="11" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_card.dart" protocol="file" />
+      <jump line="23" column="12" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_card.dart" protocol="file" />
+      <jump line="72" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="18" column="11" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_card.dart" protocol="file" />
+      <jump line="30" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="16" column="12" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_card.dart" protocol="file" />
+      <jump line="37" column="18" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_card.dart" protocol="file" />
+      <jump line="54" column="39" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_app_bar.dart" protocol="file" />
+      <jump line="79" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/login_page.dart" protocol="file" />
+      <jump line="17" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/themes/themes.dart" protocol="file" />
+      <jump line="7" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/property_page.dart" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/profile_page.dart" protocol="file" />
+      <jump line="53" column="25" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/home_page.dart" protocol="file" />
+      <jump line="50" column="13" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="11" column="0" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_card.dart" protocol="file" />
+      <jump line="24" column="2" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_card.dart" protocol="file" />
+      <jump line="14" column="33" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_ad_card_1.dart" protocol="file" />
+      <jump line="48" column="42" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="64" column="41" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="56" column="45" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="54" column="21" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="52" column="30" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+      <jump line="43" column="11" filename="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" protocol="file" />
+    </project>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <localmarks>
+      <file name="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/app.dart" timestamp="1732373408589">
+        <mark key="&quot;" line="20" column="39" />
+      </file>
+      <file name="$USER_HOME$/development/flutter/packages/flutter/lib/src/widgets/table.dart" timestamp="1732729585767">
+        <mark key="&quot;" line="400" column="55" />
+      </file>
+      <file name="$USER_HOME$/development/flutter/bin/cache/dart-sdk/lib/core/uri.dart" timestamp="1732729558749">
+        <mark key="&quot;" line="275" column="24" />
+      </file>
+      <file name="$USER_HOME$/.pub-cache/hosted/pub.dev/cloud_firestore-5.5.0/android/user-agent.gradle" timestamp="1732729558383">
+        <mark key="&quot;" line="5" column="23" />
+      </file>
+      <file name="$APPLICATION_HOME_DIR$/lib/app.jar!/resources/relaxng.rng" timestamp="1732729577123">
+        <mark key="&quot;" line="0" column="11" />
+      </file>
+      <file name="$USER_HOME$/development/flutter/packages/flutter/lib/src/widgets/basic.dart" timestamp="1732729583674">
+        <mark key="&quot;" line="1172" column="75" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/profile_page.dart" timestamp="1732729315371">
+        <mark key="&quot;" line="91" column="0" />
+      </file>
+      <file name="$USER_HOME$/development/flutter/packages/flutter/lib/src/widgets/animated_size.dart" timestamp="1732729585477">
+        <mark key="&quot;" line="15" column="17" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/services/auth/auth_gate.dart" timestamp="1732373420948">
+        <mark key="&quot;" line="18" column="25" />
+      </file>
+      <file name="$APPLICATION_HOME_DIR$/lib/app.jar!/resources/html5-schema/mml3/mathml3-presentation.rnc" timestamp="1732729577383">
+        <mark key="&quot;" line="111" column="18" />
+      </file>
+      <file name="$USER_HOME$/development/flutter/packages/flutter/lib/src/widgets/autocomplete.dart" timestamp="1732729583765">
+        <mark key="&quot;" line="177" column="49" />
+      </file>
+      <file name="$APPLICATION_HOME_DIR$/lib/app.jar!/standardSchemas/xhtml11/xhtml-symbol.ent" timestamp="1732729559610">
+        <mark key="&quot;" line="1" column="56" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" timestamp="1732730945396">
+        <mark key="&quot;" line="7" column="17" />
+        <mark key="'" line="43" column="30" />
+        <mark key="[" line="42" column="52" />
+        <mark key="]" line="42" column="66" />
+        <mark key="^" line="42" column="66" />
+        <mark key="." line="42" column="65" />
+      </file>
+      <file name="/Dummy.prompt" timestamp="1732462871755">
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="4" column="1" />
+        <mark key="^" line="4" column="1" />
+        <mark key="." line="4" column="0" />
+      </file>
+      <file name="$USER_HOME$/development/flutter/bin/cache/dart-sdk/lib/core/record.dart" timestamp="1732729578442">
+        <mark key="&quot;" line="137" column="71" />
+      </file>
+      <file name="/" timestamp="1732542924276">
+        <mark key="&quot;" line="5" column="83" />
+      </file>
+      <file name="$APPLICATION_HOME_DIR$/plugins/testng/lib/testng-plugin.jar!/resources/standardSchemas/testng-1.0.dtd" timestamp="1732729577613">
+        <mark key="&quot;" line="48" column="46" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_ad_card_1.dart" timestamp="1732729747153">
+        <mark key="&quot;" line="24" column="2" />
+        <mark key="[" line="13" column="18" />
+        <mark key="]" line="14" column="34" />
+        <mark key="." line="14" column="33" />
+        <mark key="^" line="14" column="34" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/pages/property_page.dart" timestamp="1732374135849">
+        <mark key="&quot;" line="7" column="18" />
+        <mark key="'" line="61" column="20" />
+        <mark key="[" line="69" column="0" />
+        <mark key="]" line="69" column="0" />
+        <mark key="." line="69" column="0" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/mojo-jojo/lib/components/my_card.dart" timestamp="1732729710969">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+    </localmarks>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="CHARACTER_WISE">
+        <text encoding="base64">RGV0</text>
+      </register>
+      <register name="-" type="CHARACTER_WISE">
+        <text encoding="base64">RGV0</text>
+      </register>
+      <register name="." type="CHARACTER_WISE">
+        <text encoding="base64">RGV0YWlsaW5nLCAg</text>
+      </register>
+      <register name="/" type="CHARACTER_WISE">
+        <text encoding="base64">dw==</text>
+      </register>
+      <register name="0" type="LINE_WISE">
+        <text encoding="base64">ICAgICAgICAgIGNvbnN0IFNpemVkQm94KGhlaWdodDogMTUpLAo=</text>
+      </register>
+      <register name="1" type="LINE_WISE">
+        <text encoding="base64">ICAgICAgICAgIGNvbnN0IFNpemVkQm94KGhlaWdodDogMTUpLAo=</text>
+      </register>
+      <register name="2" type="LINE_WISE">
+        <text encoding="base64">ICAgICAgICAgICksCg==</text>
+      </register>
+      <register name="3" type="LINE_WISE">
+        <text encoding="base64">ICAgICAgICAgICAgKSwK</text>
+      </register>
+      <register name="4" type="LINE_WISE">
+        <text encoding="base64">ICAgICAgICAgICAgICBdLAo=</text>
+      </register>
+      <register name="5" type="LINE_WISE">
+        <text encoding="base64">ICAgICAgICAgIGNvbnN0IEV4cGFuZGVkKGNoaWxkOiBDZW50ZXIoY2hpbGQ6IFRleHQoIlByb3BlcnR5IFBhZ2UiKSkpLAo=</text>
+      </register>
+      <register name="6" type="LINE_WISE">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBTaXplZEJveCgKICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiBjb25zdHJhaW50cy5tYXhXaWR0aCwKICAgICAgICAgICAgICAgICAgICAgIGNoaWxkOiBNeUFkQ2FyZDEoKSwKICAgICAgICAgICAgICAgICAgICApLAo=</text>
+      </register>
+      <register name="7" type="LINE_WISE">
+        <text encoding="base64">ICAgICAgICAgICAgY2hpbGQ6Cg==</text>
+      </register>
+      <register name="8" type="LINE_WISE">
+        <text encoding="base64">ICAgICAgd2lkdGg6IG5ld1dpZHRoLAo=</text>
+      </register>
+      <register name="9" type="LINE_WISE">
+        <text encoding="base64">ICAgIHZhciBwYWRkaW5nID0gTWVkaWFRdWVyeS5wYWRkaW5nT2YoY29udGV4dCk7CiAgICBkb3VibGUgd2lkdGggPSBNZWRpYVF1ZXJ5Lm9mKGNvbnRleHQpLnNpemUud2lkdGg7CiAgICBkb3VibGUgbmV3V2lkdGggPSB3aWR0aCAtIHBhZGRpbmcubGVmdCAtIHBhZGRpbmcucmlnaHQ7Cg==</text>
+      </register>
+      <register name=":" type="CHARACTER_WISE">
+        <text encoding="base64">dw==</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-search encoding="base64">dw==</last-search>
+      <last-offset encoding="base64" />
+      <last-pattern encoding="base64">dw==</last-pattern>
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">ZmFsc2U=</show-last>
+    </search>
+  </component>
+  <component name="VimVariables">
+    <vim-variables />
+  </component>
+</application>

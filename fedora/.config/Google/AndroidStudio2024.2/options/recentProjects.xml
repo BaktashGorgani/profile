@@ -1,0 +1,42 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/StudioProjects/testing">
+          <value>
+            <RecentProjectMetaInfo frameTitle="testing – /home/baky/StudioProjects/testing/lib/main.dart" projectWorkspaceId="2oT0MMqiYpAxdWBWVPezDeDDkDM">
+              <option name="activationTimestamp" value="1730879269111" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-242.23339.11.2421.12550806" />
+              <option name="buildTimestamp" value="1729790820000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="3" />
+              </option>
+              <frame x="-1491" y="76" width="3409" height="1842" extendedState="6" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1730878211996" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/mojo-jojo">
+          <value>
+            <RecentProjectMetaInfo frameTitle="mojo-jojo [~/AndroidStudioProjects/mojo-jojo] – /home/baky/AndroidStudioProjects/mojo-jojo/lib/pages/vehicle_page.dart" opened="true" projectWorkspaceId="2ozKsr8uutP5todHmbP0hj7Etzi">
+              <option name="activationTimestamp" value="1732762012853" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-242.23339.11.2421.12550806" />
+              <option name="buildTimestamp" value="1729790820000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="5" />
+              </option>
+              <frame x="27" y="70" width="2505" height="1342" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1732197390606" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/AndroidStudioProjects/mojo-jojo" />
+    <option name="lastProjectLocation" value="$USER_HOME$/StudioProjects" />
+  </component>
+</application>

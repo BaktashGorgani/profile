@@ -1,0 +1,4 @@
+[default]
+path = "/home/baky/wallpaper"
+duration = "5m"
+queue-size = 16
