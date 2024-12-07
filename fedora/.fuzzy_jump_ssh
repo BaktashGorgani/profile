@@ -37,8 +37,8 @@ jump_ssh () {
         local name="$3"
     fi
     if [[ ! -f "$HOME/.connections/$jumpServer" ]]; then
-        mkdir -p $HOME/.connections
-        touch $HOME/.connections/$jumpServer
+        mkdir -p $"HOME/.connections"
+        touch "$HOME/.connections/$jumpServer"
     fi
     if grep -q "^$name\\s$ipOrDns$" "$HOME/.connections/$jumpServer"; then
         echo "Connection entry exists!"
@@ -128,7 +128,7 @@ jump_ssh () {
     if [[ "$jumpServer" =~ "olympus" ]]; then
         local olympusPass=$(gpg -d -q "$HOME/.connections/.olympuspasswd.gpg")
         local tacacsPass=$(gpg -d -q "$HOME/.connections/.tacacspasswd.gpg")
-        if [[ ! -z "$TMUX" ]]; then
+        if [[ -n "$TMUX" ]]; then
             tmux new-window -n "$windowName" "sshpass -p $olympusPass ssh -t bgorgani@$jumpServer \"sshpass -p $tacacsPass ssh bgorgani@$connectName\";bash -i"
             if [[ "$?" -ne 0 ]]; then
                 tmux new-window -n "$windowName" "sshpass -p $olympusPass ssh -t bgorgani@$jumpServer \"ssh bgorgani@$connectName\";bash -i"
@@ -141,7 +141,7 @@ jump_ssh () {
         fi
     else
         local pulsarPass=$(gpg -d -q "$HOME/.connections/.pulsarpasswd.gpg")
-        if [[ ! -z "$TMUX" ]]; then
+        if [[ -n "$TMUX" ]]; then
             tmux new-window -n "$windowName" "sshpass -p $pulsarPass ssh -oKexAlgorithms=+diffie-hellman-group-exchange-sha1 \
                 -oHostKeyAlgorithms=+ssh-dss -t bgorgani@$jumpServer \"ssh bgorgani@$connectName\";bash -i"
         else
@@ -204,6 +204,8 @@ Alternatively, you can enter a Nickname followed by an IP address"
                 return 1
             fi
             jump_ssh "$jumpServer" "$ip" "$name"
+            local returnCode=$?
+            return "$returnCode"
             ;;
         "Change entry" )
             local entryArray=(
@@ -235,6 +237,7 @@ Alternatively, you can enter a Nickname followed by an IP address"
                 sed -i "s/$name $ip/$newName $newIp/" "$HOME/.connections/$jumpServer"
                 echo "Entry changed to $newName($newIp)"
             fi
+            return 0
             ;;
         "Delete entry" )
             local entryArray=(
@@ -258,8 +261,20 @@ Alternatively, you can enter a Nickname followed by an IP address"
                     * ) echo "Please answer 1 for Yes or 2 for No";;
                 esac
             done
+            return 0
             ;;
     esac
 }
 
-fjs
+if [[ -n "$TMUX" ]]; then
+    tmux new-window -n "Fuzzy Jump SSH"
+    fjs
+    returnCode=$?
+    if [[ "$returnCode" -ne 0 ]]; then
+        pane=$(tmux capture-pane -p)
+        tmux display-message -p "$pane"
+    fi
+    tmux kill-window -t "Fuzzy Jump SSH"
+else
+    fjs
+fi
