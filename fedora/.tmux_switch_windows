@@ -3,6 +3,7 @@
 tmux_switch_window () {
     local windowName=$(
         tmux list-windows -F "#{window_index} #{window_name}" |
+        sed "/.*SWITCH/d" |
         fzf --ansi --prompt="Switch to window: " --preview="echo {} | awk '{ print \$1 }' | xargs -I {} tmux capture-pane -p -t{}.1"
     )
     if [[ -z "$windowName" ]]; then
