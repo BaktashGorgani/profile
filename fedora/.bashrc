@@ -22,8 +22,8 @@ export PATH
 # export SYSTEMD_PAGER=
 
 # User specific aliases and functions
-if [ -d ~/.bashrc.d ]; then
-	for rc in ~/.bashrc.d/*; do
+if [ -d $HOME/.bashrc.d ]; then
+	for rc in $HOME/.bashrc.d/*; do
 		if [ -f "$rc" ]; then
 			. "$rc"
 		fi
@@ -34,7 +34,7 @@ unset rc
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
-    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    test -r $HOME/.dircolors && eval "$(dircolors -b $HOME/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls --color=auto'
     #alias dir='dir --color=auto'
     #alias vdir='vdir --color=auto'
@@ -52,8 +52,8 @@ alias ll='ls -alh'
 alias la='ls -A'
 alias l='ls -CF'
 
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+if [ -f $HOME/.bash_aliases ]; then
+    . $HOME/.bash_aliases
 fi
 
 . /usr/share/git-core/contrib/completion/git-prompt.sh
@@ -137,9 +137,11 @@ swap_sway_wksp () {
 }
 
 get_file () {
-        scp bgorgani@"$1":"$2" ~/
+    if [[ ! -d "$HOME/remote_device_files" ]]; then
+        mkdir -p "$HOME"/remote_device_files
+    fi
+        scp bgorgani@"$1":"$2" "$HOME"/remote_device_files/
 }
-
 
 PS1='\n\[\e[31m\]`nonzero_return`\[\e[32m\] \u@\h \[\e[35m\]\w\[\e[36m\]`__git_ps1`\e[0m\n$'
 export EDITOR=nvim
@@ -149,7 +151,7 @@ export BAT_THEME="OneHalfDark"
 export XCURSOR_THEME="material_cursors"
 export XCURSOR_SIZE="32"
 export XDG_DATA_DIRS="/var/lib/flatpak/exports/share:/home/baky/.local/share/flatpak/exports/share:$XDG_DATA_DIRS"
-export PATH=$HOME/Downloads/Installers/interactively/bin/:$PATH:/usr/local/go/bin:~/go/bin:/usr/local/Postman\ Agent/:~/.local/lua-language-server/bin:~/android-studio/bin
+export PATH=$HOME/Downloads/Installers/interactively/bin/:$PATH:/usr/local/go/bin:$HOME/go/bin:/usr/local/Postman\ Agent/:$HOME/.local/lua-language-server/bin:$HOME/android-studio/bin
 
 # Flutter executables
 export PATH="$HOME/development/flutter/bin:$PATH"
@@ -175,7 +177,7 @@ export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 #  tm
 #fi
 
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+[ -f "$HOME"/.fzf.bash ] && source "$HOME"/.fzf.bash
 
 . "$HOME/.cargo/env"
 
