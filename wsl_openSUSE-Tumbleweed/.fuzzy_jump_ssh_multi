@@ -152,6 +152,50 @@ jump_ssh () {
     fi
 }
 
+sanitize_and_connect () {
+    local jumpServer="$1"
+    local selections=("$@")
+    for i in "${!selections[@]}"; do
+        if [[ "${selections[$i]}" != "$jumpServer" ]]; then
+            new_selections+=("${selections[$i]}")
+        fi
+    done
+    selections=("${new_selections[@]}")
+    local sanitizedSelections=()
+    if [[ -z "${selections[@]}" ]]; then
+        echo "No entry selected"
+        return 1
+    fi
+    if [[ "${#selections[@]}" -eq 1 ]]; then
+        sanitizedSelections=("${selections[0]}:${selections[0]}")
+    elif [[ "${#selections[@]}" -eq 2 ]]; then
+        if grep -q "${selections[0]}" "$HOME/.connections/$jumpServer" &&
+            grep -q "${selections[1]}" "$HOME/.connections/$jumpServer"; then
+            local entryArray1=($(grep "${selections[0]}" "$HOME/.connections/$jumpServer"))
+            local entryArray2=($(grep "${selections[1]}" "$HOME/.connections/$jumpServer"))
+            sanitizedSelections=("${entryArray1[0]}:${entryArray1[1]}" "${entryArray2[0]}:${entryArray2[1]}")
+        else
+            sanitizedSelections=("${selections[0]}:${selections[1]}")
+        fi
+    elif [[ "${#selections[@]}" -gt 2 ]]; then
+        for i in "${selections[@]}"; do
+            if [[ -n "$i" ]]; then
+                if grep -q "$i" "$HOME/.connections/$jumpServer"; then
+                    local entryArray=($(grep "$i" "$HOME/.connections/$jumpServer"))
+                    sanitizedSelections+=("${entryArray[0]}:${entryArray[1]}")
+                fi
+            fi
+        done
+    fi
+    local uniqSelection=($(printf "%s\n" "${sanitizedSelections[@]}" | uniq))
+    for entry in "${uniqSelection[@]}"; do
+        local name
+        local ip
+        IFS=':' read -r name ip <<< "$entry"
+        jump_ssh "$jumpServer" "$ip" "$name"
+    done
+}
+
 fjs () {
     if [[
             ! -d "$HOME/.connections/olympus.srv.prnynj.alticeusa.net" ||
@@ -175,35 +219,13 @@ fjs () {
             local selectionArray=(
                 $(
                     awk '{ if ($1 != $2) print $1, $2; else print $1 }' "$HOME/.connections/$jumpServer" |
-                    fzf --ansi --print-query --prompt="Connect to: " \
+                    fzf -m --ansi --print-query --prompt="Connect to: " \
                     --preview="echo {} | awk '{print \$1}' | xargs dig " \
                     --header="To create a new entry, type the FQDN or IP address and press enter
 Alternatively, you can enter a Nickname followed by an IP address"
                 )
             )
-            if [[ -z "${selectionArray[@]}" ]]; then
-                echo "No entry selected"
-                return 1
-            fi
-            if [[ "${#selectionArray[@]}" -eq 1 ]]; then
-                local ip=${selectionArray[0]}
-                local name=$ip
-            elif [[ "${#selectionArray[@]}" -eq 2 ]]; then
-                if [[ "${selectionArray[1]}" =~ ${selectionArray[0]} ]]; then
-                    local ip=${selectionArray[1]}
-                    local name=${selectionArray[1]}
-                else
-                    local ip=${selectionArray[1]}
-                    local name=${selectionArray[0]}
-                fi
-            elif [[ "${#selectionArray[@]}" -eq 3 ]]; then
-                local ip=${selectionArray[2]}
-                local name=${selectionArray[1]}
-            else
-                echo "Too many arguments given. The jump_ssh function only accepts 1 or 2 arguments"
-                return 1
-            fi
-            jump_ssh "$jumpServer" "$ip" "$name"
+            sanitize_and_connect "$jumpServer" "${selectionArray[@]}"
             ;;
         "Change entry" )
             local entryArray=(
