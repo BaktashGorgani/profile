@@ -169,16 +169,17 @@ fjs () {
         echo "No jump server selected"
         return 1
     fi
-    local selection=$(printf "Connect\nChange entry\nDelete entry" | fzf --prompt="Choose an action: " --preview="cat $HOME/.connections/$jumpServer")
+    local selection=$(printf "Add/Connect\nChange entry\nDelete entry" | fzf --prompt="Choose an action: " --preview="cat $HOME/.connections/$jumpServer")
     case $selection in
-        "Connect" )
+        "Add/Connect" )
             local selectionArray=(
                 $(
                     awk '{ if ($1 != $2) print $1, $2; else print $1 }' "$HOME/.connections/$jumpServer" |
                     fzf --ansi --print-query --prompt="Connect to: " \
                     --preview="echo {} | awk '{print \$1}' | xargs dig " \
-                    --header="To create a new entry, type the FQDN or IP address and press enter
-Alternatively, you can enter a Nickname followed by an IP address"
+                    --header="Select an entry and hit enter to connect.
+To create a new entry, type the FQDN or IP address and press enter to connect
+Alternatively, when creating a new entry, you can enter a Nickname followed by an IP address"
                 )
             )
             if [[ -z "${selectionArray[@]}" ]]; then

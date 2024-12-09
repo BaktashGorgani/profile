@@ -155,13 +155,13 @@ jump_ssh () {
 sanitize_and_connect () {
     local jumpServer="$1"
     local selections=("$@")
+    local sanitizedSelections=()
     for i in "${!selections[@]}"; do
         if [[ "${selections[$i]}" != "$jumpServer" ]]; then
             new_selections+=("${selections[$i]}")
         fi
     done
     selections=("${new_selections[@]}")
-    local sanitizedSelections=()
     if [[ -z "${selections[@]}" ]]; then
         echo "No entry selected"
         return 1
@@ -213,16 +213,18 @@ fjs () {
         echo "No jump server selected"
         return 1
     fi
-    local selection=$(printf "Connect\nChange entry\nDelete entry" | fzf --prompt="Choose an action: " --preview="cat $HOME/.connections/$jumpServer")
+    local selection=$(printf "Add/Connect\nChange entry\nDelete entry" | fzf --prompt="Choose an action: " --preview="cat $HOME/.connections/$jumpServer")
     case $selection in
-        "Connect" )
+        "Add/Connect" )
             local selectionArray=(
                 $(
                     awk '{ if ($1 != $2) print $1, $2; else print $1 }' "$HOME/.connections/$jumpServer" |
                     fzf -m --ansi --print-query --prompt="Connect to: " \
                     --preview="echo {} | awk '{print \$1}' | xargs dig " \
-                    --header="To create a new entry, type the FQDN or IP address and press enter
-Alternatively, you can enter a Nickname followed by an IP address"
+                    --header="Select an entry (or Tab to select multiple) and hit enter to connect
+To create a new entry, type the FQDN or IP address and press enter to connect
+Alternatively, when creating a new entry, you can enter a Nickname followed by an IP address
+(Note: You cannot create a new entry AND connect to multiple entries at the same time)"
                 )
             )
             sanitize_and_connect "$jumpServer" "${selectionArray[@]}"
