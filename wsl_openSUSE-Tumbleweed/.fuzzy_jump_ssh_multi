@@ -214,6 +214,10 @@ fjs () {
         return 1
     fi
     local selection=$(printf "Add/Connect\nChange entry\nDelete entry" | fzf --prompt="Choose an action: " --preview="cat $HOME/.connections/$jumpServer")
+    if [[ -z "$selection" ]]; then
+        echo "No action selected"
+        return 1
+    fi
     case $selection in
         "Add/Connect" )
             local selectionArray=(
@@ -287,4 +291,12 @@ Alternatively, when creating a new entry, you can enter a Nickname followed by a
 }
 
 export GPG_TTY=$(tty)
-fjs
+
+if [[ -n "$TMUX" ]]; then
+    fjs
+    if [[ "$?" -ne 0 ]]; then
+        read -n 1 -s -r -p "Press any key to continue"
+    fi
+else
+    fjs
+fi
